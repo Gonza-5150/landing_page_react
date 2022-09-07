@@ -12,6 +12,7 @@ const Home = () => {
       <div>{navbar()}</div>
       <div className="container">
         <div>{jumbotron()}</div>
+        <div>{card()}</div>
       </div>
     </div>
   );
