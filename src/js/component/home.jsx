@@ -13,6 +13,11 @@ const Home = () => {
       <div className="container">
         <div>{jumbotron()}</div>
         <div>{card()}</div>
+        <div>{card()}</div>
+        <div>{card()}</div>
+        <div>{card()}</div>
+
+
       </div>
     </div>
   );
