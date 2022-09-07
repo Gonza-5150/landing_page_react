@@ -10,15 +10,22 @@ const Home = () => {
   return (
     <div>
       <div>{navbar()}</div>
-      <div></div>
       <div className="container">
         <div>{jumbotron()}</div>
-        <div>{card()}</div>
-        <div>{card()}</div>
-        <div>{card()}</div>
-        <div>{card()}</div>
-
-
+        <div className="row">
+          <div class="col-3">
+            <div>{card()}</div>
+          </div>
+          <div class="col-3">
+            <div>{card()}</div>
+          </div>
+          <div class="col-3">
+            <div>{card()}</div>
+          </div>
+          <div class="col-3">
+            <div>{card()}</div>
+          </div>
+        </div>
       </div>
     </div>
   );
