@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <div>{navbar()}</div>
+      <div></div>
       <div className="container">
         <div>{jumbotron()}</div>
         <div>{card()}</div>
