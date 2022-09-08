@@ -1,9 +1,9 @@
 import React from "react";
 
-const card = () => {
+function Card(props) {
   return (
     <div class="card">
-      <img class="card-img-top" src="https://picsum.photos/200/300" alt="Card image cap" />
+      <img class="card-img-top" src={props.url} alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
@@ -18,4 +18,7 @@ const card = () => {
   );
 };
 
-export default card;
+
+
+
+export default Card;
